@@ -1,18 +1,144 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Vercel Site</title>
-  <style>
-    body { font-family: Arial, sans-serif; display:flex; justify-content:center; align-items:center; height:100vh; margin:0; }
-    .card { text-align:center; }
-  </style>
+  <title>CyberSecPunk</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="card">
-    <h1>Hello from Vercel</h1>
-    <p>Simple frontend site ready for deployment.</p>
+
+<nav>
+  <div class="logo">CyberSecPunk</div>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+```
+<h1>Build. Secure. Automate.</h1>
+
+<p class="typing"></p>
+
+<div class="hero-buttons">
+  <button class="btn">Get Started</button>
+  <button class="btn secondary">Learn More</button>
+</div>
+```
+
   </div>
+
+</section>
+
+<section class="stats reveal">
+
+  <div class="stat">
+    <h2 class="counter" data-target="500">0</h2>
+    <p>Projects</p>
+  </div>
+
+  <div class="stat">
+    <h2 class="counter" data-target="1000">0</h2>
+    <p>Users</p>
+  </div>
+
+  <div class="stat">
+    <h2 class="counter" data-target="250">0</h2>
+    <p>Clients</p>
+  </div>
+
+</section>
+
+<section id="features" class="features reveal">
+
+  <h2>Features</h2>
+
+  <div class="card-grid">
+
+```
+<div class="card">
+  <h3>Security</h3>
+  <p>Advanced protection systems.</p>
+</div>
+
+<div class="card">
+  <h3>Automation</h3>
+  <p>Save hours with workflows.</p>
+</div>
+
+<div class="card">
+  <h3>Analytics</h3>
+  <p>Data-driven insights.</p>
+</div>
+
+<div class="card">
+  <h3>Performance</h3>
+  <p>Optimized experiences.</p>
+</div>
+```
+
+  </div>
+
+</section>
+
+<section id="projects" class="projects reveal">
+
+  <h2>Projects</h2>
+
+  <div class="card-grid">
+
+```
+<div class="card">
+  <h3>Project One</h3>
+  <p>Modern dashboard system.</p>
+</div>
+
+<div class="card">
+  <h3>Project Two</h3>
+  <p>Automation toolkit.</p>
+</div>
+
+<div class="card">
+  <h3>Project Three</h3>
+  <p>Security platform.</p>
+</div>
+```
+
+  </div>
+
+</section>
+
+<section id="contact" class="contact reveal">
+
+  <h2>Contact</h2>
+
+  <form>
+
+```
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button class="btn">Send Message</button>
+```
+
+  </form>
+
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
